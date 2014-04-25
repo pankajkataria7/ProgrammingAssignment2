@@ -1,9 +1,9 @@
-##	This R script has two function that are used to set the matrix and compute the inverse of a matrix and store it in cache
-## The next time if the matrix has not changed, the inverse is returned from the cache instead of computing it again and thus saving time
+##	This R script has two function that are used to set the matrix and compute the inverse of a matrix and store it in cache.
+## The next time if the matrix has not changed, the inverse is returned from the cache instead of computing it again and thus saving time.
 
 ##	1.makeCacheMatrix: This function creates a special "matrix" object that can cache its inverse.
-##	cacheSolve: This function computes the inverse of the special "matrix" returned by makeCacheMatrix above. If the inverse has already been calculated (and
-##	the matrix has not changed), then the cachesolve should retrieve the inverse from the cache.
+##	cacheSolve: This function computes the inverse of the special "matrix" returned by makeCacheMatrix above. 
+##	If the inverse has already been calculated (and the matrix has not changed), then the cachesolve should retrieve the inverse from the cache.
 
 
 ## This is the first function makeCacheMatrix which sets and returns the matrix and the inverse of the matrix storing and retrieving from cache the second time
